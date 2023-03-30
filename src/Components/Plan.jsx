@@ -12,7 +12,6 @@ function Plan() {
     setSelectedPlan,
   } = useContext(DefContext);
 
-
   // useEffect(() => {
   //   if (SelectedPlan) {
   //     setSelectedPlan(Plans[0]);
@@ -52,7 +51,7 @@ function Plan() {
                   onClick={(e) => handleSelected(plan)}
                 >
                   <img
-                    src={`../../public/icon-${plan.name.toLowerCase()}.svg`}
+                    src={`../assets/icon-${plan.name.toLowerCase()}.svg`}
                     alt=""
                     className="self-start "
                   />
