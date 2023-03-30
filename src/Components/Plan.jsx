@@ -51,8 +51,8 @@ function Plan() {
                   onClick={(e) => handleSelected(plan)}
                 >
                   <img
-                    src={`../assets/icon-${plan.name.toLowerCase()}.svg`}
-                    alt=""
+                    src={`/icon-${plan.name.toLowerCase()}.svg`}
+                    alt={plan.name.toLowerCase()}
                     className="self-start "
                   />
                   <div className="caption mt-[2.2rem]">
